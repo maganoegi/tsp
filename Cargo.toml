@@ -1,0 +1,12 @@
+[package]
+name = "traveling_salesman_problem"
+version = "0.1.0"
+authors = ["Sergey Platonov <platserg94@yahoo.com>"]
+
+[lib]
+name = "local_lib"
+path = "src/lib.rs"
+
+[dependencies]
+rand = "0.4"
+plotlib = { path = "../plotlib" }
